@@ -99,8 +99,16 @@ img {
   <h5><a download href="Ecology.html">Download ecology notes</a></h5>
    <h5><a href="Bio p1.docx"> KCSE BIO P1 QUNS</a> </h5>
     <h5><a href="answers.docx"> KCSE BIO P1 ANS</a> </h5>
-    
-    
+  
+ let name = prompt("What is your name");
+let schoolName = prompt("From which school?")
+alert('Hi '+name+' welcome to the best online learning platform');
+let firstChar = name.slice(0,1);
+let firstCharUpperCase = firstChar.toUpperCase();
+let restofName = name.slice(1,name.length);
+restofName = restofName.toLowerCase();
+console.log(firstCharUpperCase+''+restofName+' '+schoolName);
+ 
 
 </body>
 
