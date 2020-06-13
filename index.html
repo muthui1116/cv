@@ -221,7 +221,7 @@ margin:70px 0;
 
 </body>
 <script>
-	let setPin=1234;
+let setPin=1234;
 for(i=3;i>=0;i--){
     let inputPin=Number (prompt("Your pin is 1234"+"\n"+'Enter PIN'));
     if (inputPin===setPin){
@@ -229,7 +229,8 @@ for(i=3;i>=0;i--){
         break;
     }
     else {
-        alert(`Wrong PIN, you have ${i--} attempts remaining`);
+        alert(`Wrong PIN, you have ${i} attempts remaining`);
+        (i===0)? alert("SIM BLOCKED!"):null;
     }
 }
        /*var name = prompt('What is your name');
