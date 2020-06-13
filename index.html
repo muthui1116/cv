@@ -221,7 +221,18 @@ margin:70px 0;
 
 </body>
 <script>
-       var name = prompt('What is your name');
+	let setPin=1234;
+for(i=3;i>=0;i--){
+    let inputPin=Number (prompt("Your pin is 1234"+"\n"+'Enter PIN'));
+    if (inputPin===setPin){
+        alert(`Acepted`);
+        break;
+    }
+    else {
+        alert(`Wrong PIN, you have ${i--} attempts remaining`);
+    }
+}
+       /*var name = prompt('What is your name');
     var schoolName = prompt('From which school?')
     console.log(name+' '+schoolName);
     alert('Hi ' + name + ',' + '\n' + 'Welcome to the best online learning platform');
@@ -253,7 +264,7 @@ if (assig>=30&&assig<31){
 }else {
   alert('You failed. consolt me for advice.');
 }
-
+*/
      </script>
 
 
