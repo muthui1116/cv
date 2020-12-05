@@ -21,7 +21,7 @@ body{
     display:flex;
     list-style:none;
     font-size: 1.5rem;
-    margin: 0;
+    margin: auto 3%;
 }
 .sticky{
     position: fixed;
@@ -112,7 +112,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 10%;
+    padding: 0 3%;
     font-size: 1.5rem;
     text-align: center;
     font-family: monospace;
