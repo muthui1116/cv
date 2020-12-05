@@ -31,8 +31,9 @@ body{
 @media only screen and (max-width:600px){
     .main-nav{
         font-size: 1.1rem;
-        padding: 0;
+        padding: 0; 
     }
+    
 }
 li{
     padding:10px;
@@ -111,23 +112,22 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 0 20%;
     font-size: 1.5rem;
+    text-align: center;
     font-family: monospace;
 }
 .scope{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 3% 20%;
     color:rgb(101, 101, 241)
+    
 }
 .bio,.web{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: start;
-    padding: 3rem 1rem;
+    text-align: center;
+    padding: 5rem 17%;
     font-size: 1.1rem;
     line-height: 2rem;
 }
@@ -148,9 +148,9 @@ a:hover{
 /*CAROUSEL SLIDE*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 h4{
     font-size:1rem;
@@ -243,10 +243,11 @@ h4{
   border-radius: 50%;
 }
 .fade{
-    padding-top:3rem;
+    padding-top:3.8rem;
     width:35%;
     height: 35%;
     margin: auto 34%;
+    text-align: center;
 }
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -271,7 +272,7 @@ h4{
 .box{
     background-color: rgb(129, 114, 146);
     padding:0 80px 80px 80px;
-    margin:20px;
+    margin-top:20px;
 }
 .blue{
     background-color: rgb(173, 173, 224);
