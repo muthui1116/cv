@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap-grid.css" />
+    <title>updatedStock</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="container-fluid">
+    <div class="top">
+      <div class="budget-title">Cash as at month year</div>
+      <div class="budget-value">+3,000.90</div>
+    <div class="row">
+        <div class="color" >
+          INCOME<span class="cumulative-inc">+400.00</span><span>&nbsp;</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="color">
+          EXPENSE<span class="cumulative-exp"> -999.09</span><span class="percentage-expense"> 8%</span>
+        </div>
+    </div>
+    </div>
+    <div class="middle">
+      <div>
+        <select class="add-type" name="" >
+          <option value="Inc" selected>+</option>
+          <option value="Exp">-</option>
+        </select>
+        <input type="text" class="add-description" placeholder="add description"/>
+        <input type="text" class="add-value" placeholder="value" />
+        <button class="add-button"><i class="far fa-check-circle"></i></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col income-list">INCOME
+        <div class="income-list">
+       <!-- <div class ="col " id="income-0">
+        <span class="item-description">Salary</span>
+        <span class="item-value">+2,100.00</span>
+        <span class="item-delete">
+          <button class="item-delete-btn">i</button>
+        </span>
+      </div>-->
+    </div>
+      </div>
+      <div class="col expense-list">EXPENSE
+        <div class="expense-list">
+        <!--<div class= "col">
+          <div class ="col " id="expense-0">
+            <span class="item-description">Apartment rent</span>
+            <span class="item-value">-900.00</span>
+            <span class="item-percentage">23%</span>
+            <span class="item-delete">
+              <button class="item-delete-btn">i</button>
+            </span>
+          </div>
+        </div>-->
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<script src="scripts.js"></script>
+  </body>
+</html>
